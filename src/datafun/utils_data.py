@@ -57,7 +57,7 @@ def inspect(df: pd.DataFrame, grain: str, log: logging.Logger) -> str:
     column_names: list[str] = list(df.columns)
 
     # Get the first few rows of data
-    first_rows: pd.DataFrame = df.head()
+    first_rows: pd.DataFrame = df.tail()
 
     # Log the facts Python discovered about the data.
     log.info("   row_count:    %s", row_count)
