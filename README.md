@@ -128,9 +128,8 @@ change directory (cd) into the new folder,
 and run `code .` to open only this project in VS Code:
 
 ```shell
-git clone https://github.com/micahm42/datafun-01-foundations
-
-cd datafun-01-foundations
+git clone https://github.com/micahm42/nlp-01-getting-started
+cd nlp-01-getting-started
 code .
 ```
 
